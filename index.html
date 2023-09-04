@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>CALCULADORA</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+        <script defer src="js/index.js"></script>
+
+    </head>
+
+    <body>
+
+        <div class="boxCalculo">
+
+            <div class="box-operacoes">
+                <input size="3" class="input-operacao" type="text" id="soma1" />
+                <input size="3" class="input-operacao" type="text" id="soma2" />
+                <button type="button" class="form-button" onclick="somar()">+</button> =
+                <input size="10" class="resultado-operacao" placeholder="Resultado" type="text" id="resultadoSoma"/>
+                <button type="button" class="form-button-clean" onclick="limparSoma()">Limpar</button>
+            </div>
+
+            <div class="box-operacoes">
+                <input size="3" class="input-operacao" type="text" id="subtracao1" />
+                <input size="3" class="input-operacao" type="text" id="subtracao2" />
+                <button type="button" class="form-button" onclick="subtrair()">-</button> =                
+                <input size="10" class="resultado-operacao" placeholder="Resultado" type="text" id="resultadoSubtracao" />
+                <button type="button" class="form-button-clean" onclick="limparSubtracao()">Limpar</button>
+            </div>
+
+            <div class="box-operacoes">
+                <input size="3" class="input-operacao" type="text" id="multiplicacao1" />
+                <input size="3" class="input-operacao" type="text" id="multiplicacao2" />
+                <button type="button" class="form-button" onclick="multiplicar()">*</button> =                
+                <input size="10" class="resultado-operacao" placeholder="Resultado" type="text" id="resultadoMultiplicacao" />
+                <button type="button" class="form-button-clean" onclick="limparMultiplicacao()">Limpar</button>
+            </div>
+
+            <div class="box-operacoes">
+                <input size="3" class="input-operacao" type="text" id="divisao1" />
+                <input size="3" class="input-operacao" type="text" id="divisao2" />
+                <button type="button" class="form-button" onclick="dividir()">/</button> =                
+                <input size="10" class="resultado-operacao" placeholder="Resultado" type="text" id="resultadoDivisao" />
+                <button type="button" class="form-button-clean" onclick="limparDividir()">Limpar</button>
+            </div>
+        </div>
+
+    </body>
+</html>
