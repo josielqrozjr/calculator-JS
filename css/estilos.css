@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boxCalculo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.form-button{
+    width: 37px;
+    height: 37px;
+    background-color: #EE5000;
+    color: white;
+    border: none;
+    font-size: 14px;
+}
+
+.form-button-clean{
+    width: 50px;
+    height: 37px;
+    background-color: #EE5000;
+    border: none;
+    color: white;
+    font-size: 10px;
+}
+
+.form-button:hover, .form-button-clean:hover{
+    background-color: #FF8000;
+}
+
+.input-operacao{
+    height: 37px;
+    background-color: #EEE;
+    border: 1px solid #CCC;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+}
+
+.resultado-operacao{
+    background-color: white;
+    border: 1px solid #CCC;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.box-operacoes{
+    margin: 2px;
+}
